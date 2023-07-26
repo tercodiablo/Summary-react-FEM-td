@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <!--DISPLAY SITE PROPERTY- BASED ON USER'S DEVICE-->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  <title>Frontend Mentor | Results Summary Component</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.google.com/specimen/Hanken+Grotesk" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <main>
+    <div class="container">
+      <section class="left">
+        <h4>Your Result</h4>
+          <div class="circle">
+            <h1>76</h1>
+            <p>of 100</p>
+          </div>
+          <h2>Great</h2>
+          <p class="info">You scored higher than 65% of the people who have taken these tests.</p>
+      </section>
+
+      <section class="right">
+        <h4>Summary</h4>
+        <div class="scores">
+          <div class="row">
+            <div class="score-con">
+              <img src="./assets/images/icon-reaction.svg" alt="Reaction">
+              <span>Reaction</span>
+            </div>
+            <span class="dark-text">80<span class="gray"> / 100</span></span>
+          </div>
+
+          <div class="row">
+            <div class="score-con">
+              <img src="./assets/images/icon-memory.svg" alt="Memory">
+              <span>Memory</span>
+            </div>
+            <span class="dark-text">92<span class="gray"> / 100</span></span>
+          </div>
+
+          <div class="row">
+            <div class="score-con">
+              <img src="./assets/images/icon-verbal.svg" alt="Verbal">
+              <span>Verbal</span>
+            </div>
+            <span class="dark-text">61<span class="gray"> / 100</span></span>
+          </div>
+
+          <div class="row">
+            <div class="score-con">
+              <img src="./assets/images/icon-visual.svg" alt="Visual">
+              <span>Visual</span>
+            </div>
+            <span class="dark-text">72<span class="gray"> / 100</span></span>
+          </div>
+
+        </div>
+          <button class="btn">Continue</button>
+      </section>
+    </div>
+  </main>
+</body>
+</html>
